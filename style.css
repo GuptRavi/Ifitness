@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+  padding: 0%;
+  margin: 0%;
+  overflow-x: hidden;
+}
+
+.container{
+  max-width: 80%;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* .container1{
+  width: 120%;
+  margin-left: 0%;
+  margin-right: 0%;
+} */
+
+.navbar{
+  display: flex;
+  height: 50px;
+}
+.navbar li{
+  list-style: none;
+  margin: 0px 12px;
+  cursor: pointer;
+}
+
+.topleft{
+  width: 70%;
+}
+
+.topright{
+  width: 50%;
+}
+
+.section1{
+  /* max-height: 100vh; */
+}
+
+.section1 h1{
+  /* font-size: 29px; */
+  font-size: 2rem;
+}
+.section1 p{
+  padding: 0 3vw;
+}
+
+.font-bsize{
+  font-size: 1.2rem;
+}
+
+.dumbellimg{
+  width: 250px;
+}
+
+.topright .gymimg{
+  /* width: 445px; */
+  width: 400px;
+}
+
+.section2{
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.section2 h1{
+  font-size: 2rem;
+}
+.section2 p{
+  padding: 0 12vw;
+}
+
+.box{
+  margin: 12px 20px;
+  width: 28%;
+  border: 1px solid rgb(239, 151, 91);
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px rgb(239, 151, 91);
+}
+
+.box ul{
+  list-style: none;
+  list-style-type: none;
+}
+.box ul li{
+  margin: 10px 0px;
+}
+.box h2{
+  font-size: 1.7rem;
+}
+.price{
+  font-size: 25px;
+  font-weight: bold;
+}
+.price-1{
+  font-size: 25px;
+}
+.background1{
+  margin: 0;
+  background: rgb(247, 242, 242);
+  padding: 20px 0px;
+}
+
+.section3{
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+.plantable{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+.section3 h2{
+  font-size: 2rem;
+}
+.section3 table{
+  width: 100%;
+  /* margin: 10px 0; */
+  border-collapse: collapse;
+}
+.section3 table th{
+  width: 100vw;
+  border-bottom: 2px solid black;
+  padding: 15px 0;
+}
+.section3 table td{
+  border-bottom: 1px solid black;
+}
+
+
+footer{
+  padding: 23px;
+  text-align: center;
+}
+
+/* Creating and designing a burger*/
+.burger{
+  position: absolute;
+  cursor: pointer;
+  right: 5%;
+  top: 10px;
+  display: none;
+}
+.line{
+  width: 33px;
+  background-color: black;
+  height: 4px;
+  margin: 5px 3px;
+}
